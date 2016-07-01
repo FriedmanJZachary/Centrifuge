@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1BA62D1D26D1BC00F3C0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BA62C1D26D1BC00F3C0E4 /* AppDelegate.swift */; };
+		7F1BA62F1D26D1BC00F3C0E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BA62E1D26D1BC00F3C0E4 /* GameScene.sks */; };
+		7F1BA6311D26D1BC00F3C0E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BA6301D26D1BC00F3C0E4 /* GameScene.swift */; };
+		7F1BA6331D26D1BC00F3C0E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BA6321D26D1BC00F3C0E4 /* GameViewController.swift */; };
+		7F1BA6361D26D1BC00F3C0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BA6341D26D1BC00F3C0E4 /* Main.storyboard */; };
+		7F1BA6381D26D1BD00F3C0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BA6371D26D1BD00F3C0E4 /* Assets.xcassets */; };
+		7F1BA63B1D26D1BD00F3C0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1BA6391D26D1BD00F3C0E4 /* LaunchScreen.storyboard */; };
+		7F1BA6461D26D1BD00F3C0E4 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BA6451D26D1BD00F3C0E4 /* RingTests.swift */; };
+		7F1BA6511D26D1BD00F3C0E4 /* RingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BA6501D26D1BD00F3C0E4 /* RingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F1BA6421D26D1BD00F3C0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F1BA6211D26D1BC00F3C0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1BA6281D26D1BC00F3C0E4;
+			remoteInfo = Ring;
+		};
+		7F1BA64D1D26D1BD00F3C0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F1BA6211D26D1BC00F3C0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1BA6281D26D1BC00F3C0E4;
+			remoteInfo = Ring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F1BA6291D26D1BC00F3C0E4 /* Ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BA62C1D26D1BC00F3C0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F1BA62E1D26D1BC00F3C0E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7F1BA6301D26D1BC00F3C0E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7F1BA6321D26D1BC00F3C0E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7F1BA6351D26D1BC00F3C0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1BA6371D26D1BD00F3C0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1BA63A1D26D1BD00F3C0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1BA63C1D26D1BD00F3C0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1BA6411D26D1BD00F3C0E4 /* RingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BA6451D26D1BD00F3C0E4 /* RingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTests.swift; sourceTree = "<group>"; };
+		7F1BA6471D26D1BD00F3C0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1BA64C1D26D1BD00F3C0E4 /* RingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BA6501D26D1BD00F3C0E4 /* RingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingUITests.swift; sourceTree = "<group>"; };
+		7F1BA6521D26D1BD00F3C0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1BA6261D26D1BC00F3C0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA63E1D26D1BD00F3C0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA6491D26D1BD00F3C0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1BA6201D26D1BC00F3C0E4 = {
+			isa = PBXGroup;
+			children = (
+				7F1BA62B1D26D1BC00F3C0E4 /* Ring */,
+				7F1BA6441D26D1BD00F3C0E4 /* RingTests */,
+				7F1BA64F1D26D1BD00F3C0E4 /* RingUITests */,
+				7F1BA62A1D26D1BC00F3C0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1BA62A1D26D1BC00F3C0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BA6291D26D1BC00F3C0E4 /* Ring.app */,
+				7F1BA6411D26D1BD00F3C0E4 /* RingTests.xctest */,
+				7F1BA64C1D26D1BD00F3C0E4 /* RingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1BA62B1D26D1BC00F3C0E4 /* Ring */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BA62C1D26D1BC00F3C0E4 /* AppDelegate.swift */,
+				7F1BA62E1D26D1BC00F3C0E4 /* GameScene.sks */,
+				7F1BA6301D26D1BC00F3C0E4 /* GameScene.swift */,
+				7F1BA6321D26D1BC00F3C0E4 /* GameViewController.swift */,
+				7F1BA6341D26D1BC00F3C0E4 /* Main.storyboard */,
+				7F1BA6371D26D1BD00F3C0E4 /* Assets.xcassets */,
+				7F1BA6391D26D1BD00F3C0E4 /* LaunchScreen.storyboard */,
+				7F1BA63C1D26D1BD00F3C0E4 /* Info.plist */,
+			);
+			path = Ring;
+			sourceTree = "<group>";
+		};
+		7F1BA6441D26D1BD00F3C0E4 /* RingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BA6451D26D1BD00F3C0E4 /* RingTests.swift */,
+				7F1BA6471D26D1BD00F3C0E4 /* Info.plist */,
+			);
+			path = RingTests;
+			sourceTree = "<group>";
+		};
+		7F1BA64F1D26D1BD00F3C0E4 /* RingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BA6501D26D1BD00F3C0E4 /* RingUITests.swift */,
+				7F1BA6521D26D1BD00F3C0E4 /* Info.plist */,
+			);
+			path = RingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1BA6281D26D1BC00F3C0E4 /* Ring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1BA6551D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "Ring" */;
+			buildPhases = (
+				7F1BA6251D26D1BC00F3C0E4 /* Sources */,
+				7F1BA6261D26D1BC00F3C0E4 /* Frameworks */,
+				7F1BA6271D26D1BC00F3C0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ring;
+			productName = Ring;
+			productReference = 7F1BA6291D26D1BC00F3C0E4 /* Ring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F1BA6401D26D1BD00F3C0E4 /* RingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1BA6581D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "RingTests" */;
+			buildPhases = (
+				7F1BA63D1D26D1BD00F3C0E4 /* Sources */,
+				7F1BA63E1D26D1BD00F3C0E4 /* Frameworks */,
+				7F1BA63F1D26D1BD00F3C0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1BA6431D26D1BD00F3C0E4 /* PBXTargetDependency */,
+			);
+			name = RingTests;
+			productName = RingTests;
+			productReference = 7F1BA6411D26D1BD00F3C0E4 /* RingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F1BA64B1D26D1BD00F3C0E4 /* RingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1BA65B1D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "RingUITests" */;
+			buildPhases = (
+				7F1BA6481D26D1BD00F3C0E4 /* Sources */,
+				7F1BA6491D26D1BD00F3C0E4 /* Frameworks */,
+				7F1BA64A1D26D1BD00F3C0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1BA64E1D26D1BD00F3C0E4 /* PBXTargetDependency */,
+			);
+			name = RingUITests;
+			productName = RingUITests;
+			productReference = 7F1BA64C1D26D1BD00F3C0E4 /* RingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1BA6211D26D1BC00F3C0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Idk Man";
+				TargetAttributes = {
+					7F1BA6281D26D1BC00F3C0E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7F1BA6401D26D1BD00F3C0E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F1BA6281D26D1BC00F3C0E4;
+					};
+					7F1BA64B1D26D1BD00F3C0E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F1BA6281D26D1BC00F3C0E4;
+					};
+				};
+			};
+			buildConfigurationList = 7F1BA6241D26D1BC00F3C0E4 /* Build configuration list for PBXProject "Ring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1BA6201D26D1BC00F3C0E4;
+			productRefGroup = 7F1BA62A1D26D1BC00F3C0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1BA6281D26D1BC00F3C0E4 /* Ring */,
+				7F1BA6401D26D1BD00F3C0E4 /* RingTests */,
+				7F1BA64B1D26D1BD00F3C0E4 /* RingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1BA6271D26D1BC00F3C0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BA62F1D26D1BC00F3C0E4 /* GameScene.sks in Resources */,
+				7F1BA63B1D26D1BD00F3C0E4 /* LaunchScreen.storyboard in Resources */,
+				7F1BA6381D26D1BD00F3C0E4 /* Assets.xcassets in Resources */,
+				7F1BA6361D26D1BC00F3C0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA63F1D26D1BD00F3C0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA64A1D26D1BD00F3C0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1BA6251D26D1BC00F3C0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BA6311D26D1BC00F3C0E4 /* GameScene.swift in Sources */,
+				7F1BA6331D26D1BC00F3C0E4 /* GameViewController.swift in Sources */,
+				7F1BA62D1D26D1BC00F3C0E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA63D1D26D1BD00F3C0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BA6461D26D1BD00F3C0E4 /* RingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1BA6481D26D1BD00F3C0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1BA6511D26D1BD00F3C0E4 /* RingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F1BA6431D26D1BD00F3C0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1BA6281D26D1BC00F3C0E4 /* Ring */;
+			targetProxy = 7F1BA6421D26D1BD00F3C0E4 /* PBXContainerItemProxy */;
+		};
+		7F1BA64E1D26D1BD00F3C0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1BA6281D26D1BC00F3C0E4 /* Ring */;
+			targetProxy = 7F1BA64D1D26D1BD00F3C0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F1BA6341D26D1BC00F3C0E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1BA6351D26D1BC00F3C0E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1BA6391D26D1BD00F3C0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1BA63A1D26D1BD00F3C0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1BA6531D26D1BD00F3C0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1BA6541D26D1BD00F3C0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1BA6561D26D1BD00F3C0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.Ring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F1BA6571D26D1BD00F3C0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.Ring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F1BA6591D26D1BD00F3C0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.RingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ring.app/Ring";
+			};
+			name = Debug;
+		};
+		7F1BA65A1D26D1BD00F3C0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.RingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ring.app/Ring";
+			};
+			name = Release;
+		};
+		7F1BA65C1D26D1BD00F3C0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.RingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ring;
+			};
+			name = Debug;
+		};
+		7F1BA65D1D26D1BD00F3C0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyfriedman.RingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1BA6241D26D1BC00F3C0E4 /* Build configuration list for PBXProject "Ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BA6531D26D1BD00F3C0E4 /* Debug */,
+				7F1BA6541D26D1BD00F3C0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1BA6551D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "Ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BA6561D26D1BD00F3C0E4 /* Debug */,
+				7F1BA6571D26D1BD00F3C0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F1BA6581D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "RingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BA6591D26D1BD00F3C0E4 /* Debug */,
+				7F1BA65A1D26D1BD00F3C0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F1BA65B1D26D1BD00F3C0E4 /* Build configuration list for PBXNativeTarget "RingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1BA65C1D26D1BD00F3C0E4 /* Debug */,
+				7F1BA65D1D26D1BD00F3C0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F1BA6211D26D1BC00F3C0E4 /* Project object */;
+}
